@@ -19,7 +19,7 @@ export default function Home() {
         <p className="text-white text-sm sm:text-base md:text-lg font-medium text-center">
           I build clean, user-focused websites with seamless functionality.
         </p>
-        <button className="bg-white text-black px-4 py-4 mt-5 rounded-md font-medium hover:scale-105 transition duration-300">
+        <button className="bg-white text-black px-4 py-4 mt-5 rounded-lg font-medium hover:scale-105 transition duration-300">
           View my Works 👀
         </button>
       </div>
