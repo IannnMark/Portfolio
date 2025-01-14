@@ -9,7 +9,7 @@ export default function Header() {
           <img
             src={Logo}
             alt="Logo"
-            className="h-14 w-36 flex-shrink-0 hover:opacity-95 hover:shadow-current hover:scale-105 rounded transition duration-300"
+            className="h-14 w-auto flex-shrink-0 hover:opacity-95 hover:shadow-current hover:scale-105 rounded transition duration-300"
           />
         </Link>
 
@@ -31,7 +31,7 @@ export default function Header() {
         </div>
 
         <div>
-          <button className="bg-white text-black p-2 px-5 rounded-lg border border-black">
+          <button className="bg-white text-black p-2 px-5 rounded-lg border border-black text-[16px] font-normal hover:scale-105 transition duration-300">
             Get in touch
           </button>
         </div>
