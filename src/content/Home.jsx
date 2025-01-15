@@ -39,7 +39,7 @@ export default function Home() {
           </p>
         </div>
         <div className="flex flex-col items-center justify-center bg-neutral-800 py-7">
-          <div className="flex gap-40 mx-4 text-neutral-600 font-medium text-sm sm:text-base">
+          <div className="flex gap-10 mx-4 text-neutral-600 font-medium text-sm sm:text-base">
             <span className="flex items-center gap-2 px-3 py-2 bg-neutral-800 rounded-lg ">
               <img src={mongoDBicon1} alt="mongoDb icon" className="w-5 h-11" />
               <img
