@@ -15,13 +15,22 @@ export default function Header() {
 
         <div className="hidden sm:flex gap-4 flex-grow justify-center">
           <nav className="flex gap-6 uppercase font-normal text-gray-400 text-[16px]">
-            <a className="inline-block hover:opacity-95 hover:shadow-current hover:text-white hover:scale-105 rounded transition duration-300 px-4 py-2">
+            <a
+              href="#Projects"
+              className="inline-block hover:opacity-95 hover:shadow-current hover:text-white hover:scale-105 rounded transition duration-300 px-4 py-2"
+            >
               Projects
             </a>
-            <a className="inline-block hover:opacity-95 hover:shadow-current hover:text-white hover:scale-105 rounded transition duration-300 px-4 py-2">
+            <a
+              href="#about"
+              className="inline-block hover:opacity-95 hover:shadow-current hover:text-white hover:scale-105 rounded transition duration-300 px-4 py-2"
+            >
               About
             </a>
-            <a className="inline-block hover:opacity-95 hover:shadow-current hover:text-white hover:scale-105 rounded transition duration-300 px-4 py-2">
+            <a
+              href="#contact"
+              className="inline-block hover:opacity-95 hover:shadow-current hover:text-white hover:scale-105 rounded transition duration-300 px-4 py-2"
+            >
               Contact
             </a>
             <a className="inline-block hover:opacity-95 hover:shadow-current hover:text-white hover:scale-105 rounded transition duration-300 px-4 py-2">

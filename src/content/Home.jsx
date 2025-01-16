@@ -33,9 +33,11 @@ export default function Home() {
         <p className="text-white text-sm sm:text-base md:text-lg font-medium text-center">
           I build clean, user-focused websites with seamless functionality.
         </p>
-        <button className="bg-white text-black px-4 py-4 mt-5 rounded-lg font-medium hover:scale-105 transition duration-300">
-          View my Works 👀
-        </button>
+        <a href="#Projects">
+          <button className="bg-white text-black px-4 py-4 mt-5 rounded-lg font-medium hover:scale-105 transition duration-300">
+            View my Works 👀
+          </button>
+        </a>
       </div>
 
       <div className="my-20">
@@ -101,7 +103,10 @@ export default function Home() {
           Recent Projects
         </h1>
 
-        <div className="flex flex-col items-center justify-center gap-10 my-10">
+        <div
+          className="flex flex-col items-center justify-center gap-10 my-10"
+          id="Projects"
+        >
           <div className="flex gap-10">
             <div className="flex flex-col items-center">
               <div className="shadow-md hover:shadow-lg bg-neutral-700 w-[602px] h-[451px] flex items-center justify-center rounded-lg">
@@ -189,7 +194,10 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-center md:p-16">
+      <div
+        id="about"
+        className="flex flex-col md:flex-row justify-center md:p-16"
+      >
         <div className="max-w-lg p-10 md:flex-row">
           <h1 className="m-0 leading-tight text-white font-medium text-[60px] my-10 text-left">
             <span className="whitespace-nowrap">Bringing ideas to life</span>
@@ -219,7 +227,10 @@ export default function Home() {
         ></div>
       </div>
 
-      <div className="bg-neutral-700 w-[1237px] h-[162px] flex items-center justify-center mx-auto rounded-lg">
+      <div
+        id="contact"
+        className="bg-neutral-700 w-[1237px] h-[162px] flex items-center justify-center mx-auto rounded-lg"
+      >
         <div className="flex items-center justify-center gap-7">
           <p className="text-neutral-300">
             Interested in working with me? I’d love to hear from you!
