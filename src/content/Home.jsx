@@ -24,7 +24,7 @@ export default function Home() {
         <img
           src={profile}
           alt="Pic"
-          className="w-24 h-24 rounded-full mt-20 cursor-pointer"
+          className="w-20 h-20 rounded-full mt-20 cursor-pointer"
         />
 
         <h1 className=" text-white font-medium text-[30px] sm:text-[70px] md:text-[100px] whitespace-nowrap text-center font-sans m-0 leading-tight">
