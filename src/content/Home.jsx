@@ -12,6 +12,7 @@ import blessedland from "../../images/blessedland.png";
 import proCapture from "../../images/procapture.png";
 import downUnderBrews from "../../images/downunderbrews.png";
 import Recipe from "../../images/Recipe.png";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -229,8 +230,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-
-      
+      <Footer />
     </div>
   );
 }
