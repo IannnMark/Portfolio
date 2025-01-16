@@ -7,6 +7,10 @@ import reactIcon from "../../images/ReactIcon.png";
 import reactIcon1 from "../../images/ReactIcon1.png";
 import nodeIcon from "../../images/NodeJsIcon.png";
 import tailwindIcon from "../../images/TailwindCssIcon.png";
+import blessedland from "../../images/blessedland.png";
+import proCapture from "../../images/procapture.png";
+import downUnderBrews from "../../images/downunderbrews.png";
+import Recipe from "../../images/Recipe.png";
 
 export default function Home() {
   return (
@@ -40,7 +44,7 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col items-center justify-center bg-neutral-800 py-7">
-          <div className="flex gap-10 mx-4 text-neutral-600 font-medium text-sm sm:text-base">
+          <div className="flex gap-10 mx-4 text-neutral-600 font-medium text-sm sm:text-base ">
             <span className="flex items-center gap-2 px-3 py-2 bg-neutral-800 rounded-lg h-12">
               <img
                 src={mongoDBicon1}
@@ -86,6 +90,68 @@ export default function Home() {
                 className="w-[257px] h-8 object-contain"
               />
             </span>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h1 className="text-white text-[60px] font-medium flex flex-col items-center">
+          Recent Projects
+        </h1>
+
+        <div className="flex flex-col items-center justify-center gap-10 my-10">
+          <div className="flex gap-10">
+            <div className="flex flex-col items-center">
+              <div className="shadow-md hover:shadow-lg bg-neutral-700 w-[602px] h-[451px] flex items-center justify-center rounded-lg">
+                <img
+                  src={blessedland}
+                  alt="BlessedLand"
+                  className="h-[403px] w-[567px] rounded-lg"
+                />
+              </div>
+              <p className="text-white text-[24px] font-medium mr-48">
+                Blessed Land Academy System (BLAS)
+              </p>
+            </div>
+            <div className="flex flex-col items-center">
+              <div className="shadow-md hover:shadow-lg bg-neutral-700  w-[602px] h-[451px] flex items-center justify-center rounded-lg">
+                <img
+                  src={proCapture}
+                  alt="ProCapture"
+                  className="h-[403px] w-[567px] rounded-lg"
+                />
+              </div>
+              <p className="text-white text-[24px] font-medium mr-80">
+                Pro Capture Camera Store
+              </p>
+            </div>
+          </div>
+
+          <div className="flex gap-10">
+            <div className="flex flex-col items-center">
+              <div className="shadow-md hover:shadow-lg bg-neutral-700  w-[602px] h-[451px] flex items-center justify-center rounded-lg">
+                <img
+                  src={downUnderBrews}
+                  alt="DownUnderBrews"
+                  className="h-[403px] w-[567px] rounded-lg"
+                />
+              </div>
+              <p className="text-white text-[24px] font-medium mr-[253px]">
+                Down Under Brews Coffee Shop
+              </p>
+            </div>
+            <div className="flex flex-col items-center">
+              <div className="shadow-md hover:shadow-lg bg-neutral-700  w-[602px] h-[451px] flex items-center justify-center rounded-lg">
+                <img
+                  src={Recipe}
+                  alt="Recipe"
+                  className="h-[403px] w-[567px] rounded-lg"
+                />
+              </div>
+              <p className="text-white text-[24px] font-medium mr-[305px]">
+                Recipe Sharing Application
+              </p>
+            </div>
           </div>
         </div>
       </div>
