@@ -12,7 +12,7 @@ export default function Footer() {
       <div className="flex items-center justify-center">
         <img src={logo} alt="Logo" className="w-[118px] h-[34px]" />
       </div>
-      <div className="flex items-center justify-center text-neutral-700 gap-4">
+      <div className="flex items-center justify-center text-neutral-700 gap-3 my-10">
         <a href="https://www.linkedin.com/in/ian-mark-morga-994136295/">
           <FaLinkedin className="w-[24px] h-[24px]" />
         </a>
