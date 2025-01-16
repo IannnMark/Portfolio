@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import image from "../../images/Pic.JPG";
 import ParticleBackground from "./ParticleBackground";
 import mongoDBicon from "../../images/MongoDB icon.png";
@@ -109,9 +110,17 @@ export default function Home() {
                   className="h-[403px] w-[567px] rounded-lg"
                 />
               </div>
-              <p className="text-white text-[24px] font-medium mr-48">
-                Blessed Land Academy System (BLAS)
-              </p>
+              <div className="flex items-center justify-center gap-24">
+                <p className="text-white text-[24px] font-medium">
+                  Blessed Land Academy System (BLAS)
+                </p>
+
+                <Link to={"https://www.blessedlandacademy.online/"}>
+                  <p className="text-neutral-700 hover:scale-105 transition duration-300">
+                    Live Preview
+                  </p>
+                </Link>
+              </div>
             </div>
             <div className="flex flex-col items-center">
               <div className="shadow-md hover:shadow-lg bg-neutral-700  w-[602px] h-[451px] flex items-center justify-center rounded-lg">
@@ -121,9 +130,16 @@ export default function Home() {
                   className="h-[403px] w-[567px] rounded-lg"
                 />
               </div>
-              <p className="text-white text-[24px] font-medium mr-80">
-                Pro Capture Camera Store
-              </p>
+              <div className="flex items-center justify-center gap-56">
+                <p className="text-white text-[24px] font-medium">
+                  Pro Capture Camera Store
+                </p>
+                <Link to={"https://camera-store-client.vercel.app/"}>
+                  <p className="text-neutral-700 hover:scale-105 transition duration-300">
+                    Live Preview
+                  </p>
+                </Link>
+              </div>
             </div>
           </div>
 
@@ -136,9 +152,16 @@ export default function Home() {
                   className="h-[403px] w-[567px] rounded-lg"
                 />
               </div>
-              <p className="text-white text-[24px] font-medium mr-[253px]">
-                Down Under Brews Coffee Shop
-              </p>
+              <div className="flex items-center justify-center gap-40">
+                <p className="text-white text-[24px] font-medium">
+                  Down Under Brews Coffee Shop
+                </p>
+                <Link to={"https://down-under-brews.vercel.app/"}>
+                  <p className="text-neutral-700 hover:scale-105 transition duration-300">
+                    Live Preview
+                  </p>
+                </Link>
+              </div>
             </div>
             <div className="flex flex-col items-center">
               <div className="shadow-md hover:shadow-lg bg-neutral-700  w-[602px] h-[451px] flex items-center justify-center rounded-lg">
@@ -148,13 +171,25 @@ export default function Home() {
                   className="h-[403px] w-[567px] rounded-lg"
                 />
               </div>
-              <p className="text-white text-[24px] font-medium mr-[305px]">
-                Recipe Sharing Application
-              </p>
+              <div className="flex items-center justify-center gap-52">
+                <p className="text-white text-[24px] font-medium">
+                  Recipe Sharing Application
+                </p>
+                <Link
+                  to={"https://github.com/IannnMark/Recipe-Application-Client"}
+                >
+                  <p className="text-neutral-700 hover:scale-105 transition duration-300">
+                    GitHub Code
+                  </p>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
+
+      
     </div>
   );
 }
