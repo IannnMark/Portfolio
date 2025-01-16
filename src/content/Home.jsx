@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import image from "../../images/Pic.JPG";
+import profile from "../../images/profile.png";
+import profile1 from "../../images/profile1.png";
 import ParticleBackground from "./ParticleBackground";
 import mongoDBicon from "../../images/MongoDB icon.png";
 import mongoDBicon1 from "../../images/MongoDB icon1.png";
@@ -19,10 +20,11 @@ export default function Home() {
     <div>
       <div className="flex flex-col items-center py-10 sm:py-10 max-w-6xl mx-auto">
         <ParticleBackground />
+
         <img
-          src={image}
+          src={profile}
           alt="Pic"
-          className="h-20 w-20 rounded-full mt-20 cursor-pointer"
+          className="w-24 h-24 rounded-full mt-20 cursor-pointer"
         />
 
         <h1 className=" text-white font-medium text-[30px] sm:text-[70px] md:text-[100px] whitespace-nowrap text-center font-sans m-0 leading-tight">
@@ -220,7 +222,7 @@ export default function Home() {
         <div
           className="w-[327px] h-[403px] md:w-[547px] md:h-[733px] rounded-lg"
           style={{
-            backgroundImage: `url(${image})`,
+            backgroundImage: `url(${profile1})`,
             backgroundSize: "cover",
             backgroundPosition: "bottom",
           }}
