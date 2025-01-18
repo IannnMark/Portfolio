@@ -9,7 +9,7 @@ export default function Header() {
           <img
             src={Logo}
             alt="Logo"
-            className="h-14 w-auto flex-shrink-0 hover:opacity-95 hover:shadow-current hover:scale-105 rounded transition duration-300"
+            className="h-5 w-[78px] sm:h-14 sm:w-auto flex-shrink-0 hover:opacity-95 hover:shadow-current hover:scale-105 rounded transition duration-300"
           />
         </Link>
 
