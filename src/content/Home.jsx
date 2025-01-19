@@ -101,7 +101,7 @@ export default function Home() {
       </div>
 
       <div>
-        <h1 className="text-white text-[60px] font-medium flex flex-col items-center">
+        <h1 className="text-white text-[32px] md:text-[60px] font-medium flex flex-col items-center">
           Recent Projects
         </h1>
 
@@ -109,27 +109,33 @@ export default function Home() {
           className="flex flex-col items-center justify-center gap-10 my-10"
           id="Projects"
         >
-          <div className="flex gap-10">
+          <div className="flex flex-col gap-10 md:flex-row">
             <div className="flex flex-col items-center">
-              <div className="shadow-md hover:shadow-lg bg-neutral-700 w-[602px] h-[451px] flex items-center justify-center rounded-lg">
+              <div className="shadow-md hover:shadow-lg bg-neutral-700 w-[327px] h-[245px] md:w-[602px] md:h-[451px] flex items-center justify-center rounded-lg">
                 <img
                   src={blessedland}
                   alt="BlessedLand"
-                  className="h-[403px] w-[567px] rounded-lg"
+                  className="h-[218px] w-[307px] md:h-[403px] md:w-[567px] rounded-lg"
                 />
               </div>
-              <div className="flex items-center justify-center gap-24">
-                <p className="text-white text-[24px] font-medium">
-                  Blessed Land Academy System (BLAS)
+              <div className="flex flex-col items-center justify-center gap-4 md:flex-row md:gap-24 mr-6">
+                <p className="text-white text-center md:text-left text-[22px] md:text-[24px] font-medium">
+                  Blessed Land Academy System
+                  <span className="block md:inline md:ml-2 text-[20px] text-left">
+                    (BLAS)
+                  </span>
                 </p>
-
-                <Link to={"https://www.blessedlandacademy.online/"}>
-                  <p className="text-neutral-700 hover:scale-105 transition duration-300">
+                <Link
+                  to={"https://www.blessedlandacademy.online/"}
+                  className="ml-auto"
+                >
+                  <p className="text-neutral-700 hover:scale-105 transition duration-300 text-base">
                     Live Preview
                   </p>
                 </Link>
               </div>
             </div>
+
             <div className="flex flex-col items-center">
               <div className="shadow-md hover:shadow-lg bg-neutral-700  w-[602px] h-[451px] flex items-center justify-center rounded-lg">
                 <img
