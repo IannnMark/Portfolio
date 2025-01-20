@@ -118,8 +118,8 @@ export default function Home() {
                   className="h-[218px] w-[307px] md:h-[403px] md:w-[567px] rounded-lg"
                 />
               </div>
-              <div className="flex flex-col items-center justify-center gap-4 md:flex-row md:gap-24 mr-6">
-                <p className="text-white text-center md:text-left text-[22px] md:text-[24px] font-medium">
+              <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-[602px] gap-4 md:gap-0">
+                <p className="text-white text-left self-start md:self-center text-[22px] md:text-[24px] font-medium">
                   Blessed Land Academy System
                   <span className="block md:inline md:ml-2 text-[20px] text-left">
                     (BLAS)
@@ -137,19 +137,22 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col items-center">
-              <div className="shadow-md hover:shadow-lg bg-neutral-700  w-[602px] h-[451px] flex items-center justify-center rounded-lg">
+              <div className="shadow-md hover:shadow-lg bg-neutral-700 w-[327px] h-[245px] md:w-[602px] md:h-[451px] flex items-center justify-center rounded-lg">
                 <img
                   src={proCapture}
                   alt="ProCapture"
-                  className="h-[403px] w-[567px] rounded-lg"
+                  className="h-[218px] w-[307px] md:h-[403px] md:w-[567px] rounded-lg"
                 />
               </div>
-              <div className="flex items-center justify-center gap-56">
-                <p className="text-white text-[24px] font-medium">
+              <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-[602px] gap-4 md:gap-0">
+                <p className="text-white text-left self-start md:self-center text-[22px] md:text-[24px] font-medium">
                   Pro Capture Camera Store
                 </p>
-                <Link to={"https://camera-store-client.vercel.app/"}>
-                  <p className="text-neutral-700 hover:scale-105 transition duration-300">
+                <Link
+                  to={"https://camera-store-client.vercel.app/"}
+                  className="ml-auto"
+                >
+                  <p className="text-neutral-700 hover:scale-105 transition duration-300 text-base">
                     Live Preview
                   </p>
                 </Link>
@@ -157,42 +160,46 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex gap-10">
+          <div className="flex flex-col gap-10 md:flex-row">
             <div className="flex flex-col items-center">
-              <div className="shadow-md hover:shadow-lg bg-neutral-700  w-[602px] h-[451px] flex items-center justify-center rounded-lg">
+              <div className="shadow-md hover:shadow-lg bg-neutral-700 w-[327px] h-[245px] md:w-[602px] md:h-[451px] flex items-center justify-center rounded-lg">
                 <img
                   src={downUnderBrews}
                   alt="DownUnderBrews"
-                  className="h-[403px] w-[567px] rounded-lg"
+                  className="h-[218px] w-[307px] md:h-[403px] md:w-[567px] rounded-lg"
                 />
               </div>
-              <div className="flex items-center justify-center gap-40">
-                <p className="text-white text-[24px] font-medium">
+              <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-[602px] gap-4 md:gap-0">
+                <p className="text-white text-left self-start md:self-center text-[22px] md:text-[24px] font-medium">
                   Down Under Brews Coffee Shop
                 </p>
-                <Link to={"https://down-under-brews.vercel.app/"}>
-                  <p className="text-neutral-700 hover:scale-105 transition duration-300">
+                <Link
+                  to={"https://down-under-brews.vercel.app/"}
+                  className="ml-auto"
+                >
+                  <p className="text-neutral-700 hover:scale-105 transition duration-300 text-base">
                     Live Preview
                   </p>
                 </Link>
               </div>
             </div>
             <div className="flex flex-col items-center">
-              <div className="shadow-md hover:shadow-lg bg-neutral-700  w-[602px] h-[451px] flex items-center justify-center rounded-lg">
+              <div className="shadow-md hover:shadow-lg bg-neutral-700 w-[327px] h-[245px] md:w-[602px] md:h-[451px] flex items-center justify-center rounded-lg">
                 <img
                   src={Recipe}
                   alt="Recipe"
-                  className="h-[403px] w-[567px] rounded-lg"
+                  className="h-[218px] w-[307px] md:h-[403px] md:w-[567px] rounded-lg"
                 />
               </div>
-              <div className="flex items-center justify-center gap-52">
-                <p className="text-white text-[24px] font-medium">
+              <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-[602px] gap-4 md:gap-0">
+                <p className="text-white text-left self-start md:self-center text-[22px] md:text-[24px] font-medium">
                   Recipe Sharing Application
                 </p>
                 <Link
                   to={"https://github.com/IannnMark/Recipe-Application-Client"}
+                  className="ml-auto"
                 >
-                  <p className="text-neutral-700 hover:scale-105 transition duration-300">
+                  <p className="text-neutral-700 hover:scale-105 transition duration-300 text-base">
                     GitHub Code
                   </p>
                 </Link>
@@ -206,45 +213,45 @@ export default function Home() {
         id="about"
         className="flex flex-col md:flex-row justify-center md:p-16"
       >
-        <div className="max-w-lg p-10 md:flex-row">
-          <h1 className="m-0 leading-tight text-white font-medium text-[60px] my-10 text-left">
-            <span className="whitespace-nowrap">Bringing ideas to life</span>
-            <br />
-            <span className="block">through code</span>
-          </h1>
-          <p className="text-white font-normal text-[14px] md:text-[18px] text-left">
-            Hi, I’m Ian! I’m a full-stack developer with 2 years of experience
-            creating reliable, scalable, and innovative web solutions. I
-            specialize in both front-end and back-end development, blending
-            functionality with great user experiences.
-          </p>
-
-          <p className="text-white font-normal text-[14px] md:text-[18px] my-7 text-left">
-            Outside of work, I enjoy playing games and watching videos, which
-            often inspire new ideas and keep me connected to the latest trends
-            in tech specifically in web development
-          </p>
-        </div>
         <div
-          className="w-[327px] h-[403px] md:w-[547px] md:h-[733px] rounded-lg"
+          className="w-[327px] h-[403px] md:w-[547px] md:h-[733px] rounded-lg order-1 md:order-2 mx-auto md:mx-0 flex items-center justify-center"
           style={{
             backgroundImage: `url(${profile1})`,
             backgroundSize: "cover",
             backgroundPosition: "bottom",
           }}
         ></div>
+        <div className="max-w-lg p-10 md:flex-row order-2 md:order-1">
+          <h1 className="m-0 leading-tight text-white font-medium text-[32px] md:text-[60px] my-1 md:my-10 text-left">
+            <span className="whitespace-nowrap">Bringing ideas to life</span>
+            <br />
+            <span className="block">through code</span>
+          </h1>
+          <p className="text-white font-normal text-[16px] md:text-[18px] text-left">
+            Hi, I’m Ian! I’m a full-stack developer with 2 years of experience
+            creating reliable, scalable, and innovative web solutions. I
+            specialize in both front-end and back-end development, blending
+            functionality with great user experiences.
+          </p>
+
+          <p className="text-white font-normal text-[16px] md:text-[18px] my-7 text-left">
+            Outside of work, I enjoy playing games and watching videos, which
+            often inspire new ideas and keep me connected to the latest trends
+            in tech specifically in web development
+          </p>
+        </div>
       </div>
 
       <div
         id="contact"
-        className="bg-neutral-700 w-[1237px] h-[162px] flex items-center justify-center mx-auto rounded-lg"
+        className="bg-neutral-700 w-[327px] h-[206px] md:w-[1237px] md:h-[162px] flex items-center justify-center mx-auto rounded-lg"
       >
-        <div className="flex items-center justify-center gap-7">
-          <p className="text-neutral-300">
+        <div className="flex flex-col md:flex-row text-center items-center justify-center gap-7">
+          <p className="text-neutral-300 text-lg md:text-2xl">
             Interested in working with me? I’d love to hear from you!
           </p>
 
-          <p className="text-neutral-700 bg-white rounded-lg px-4 py-4">
+          <p className="text-neutral-700 bg-white rounded-lg px-4 py-4 text-base">
             ianmarkmorga07@gmail.com
           </p>
         </div>
