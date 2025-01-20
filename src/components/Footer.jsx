@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 export default function Footer() {
   return (
     <div>
-      <div className="flex gap-5 text-neutral-700 my-12 items-center justify-center">
+      <div className="flex flex-col md:flex-row gap-5 text-neutral-700 my-12 items-center justify-center">
         <h3 className="font-normal text-[16px]">Projects</h3>
         <h3 className="font-normal text-[16px]">About</h3>
         <h3 className="font-normal text-[16px]">Contact</h3>
@@ -23,8 +23,10 @@ export default function Footer() {
       </div>
       <div className="flex items-center text-center justify-center my-10">
         <p className="text-[16px] font-normal text-neutral-700">
-          All rights reserved. © Copyright Ian Mark Morga{" "}
-          {new Date().getFullYear()}
+          All rights reserved.{" "}
+          <span className="block md:inline">
+            © Copyright Ian Mark Morga {new Date().getFullYear()}{" "}
+          </span>
         </p>
       </div>
     </div>
