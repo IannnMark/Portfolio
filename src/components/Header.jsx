@@ -85,7 +85,7 @@ export default function Header() {
                 Contact
               </a>
               <a
-                href=""
+                href="#cv"
                 className="uppercase text-black hover:shadow-current transition duration-300 hover:scale-105"
               >
                 CV

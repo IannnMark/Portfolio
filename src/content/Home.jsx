@@ -240,6 +240,13 @@ export default function Home() {
             often inspire new ideas and keep me connected to the latest trends
             in tech specifically in web development
           </p>
+          <div>
+            <a href="https://drive.google.com/file/d/1RRUGdlUhmglwb3Wj-9qsk0y4ILqvl9uF/view?usp=sharing">
+              <button className="px-4 py-2 bg-white text-black rounded-lg hover:scale-105 transition duration-300">
+                Download my CV
+              </button>
+            </a>
+          </div>
         </div>
       </div>
 
