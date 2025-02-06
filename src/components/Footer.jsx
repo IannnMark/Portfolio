@@ -10,15 +10,19 @@ export default function Footer() {
         <h3 className="font-normal text-[16px]">CV</h3>
       </div>
       <div className="flex items-center justify-center">
-        <img src={logo} alt="Logo" className="w-[118px] h-[34px]" />
+        <img
+          src={logo}
+          alt="Logo"
+          className="w-[118px] h-[34px] hover:scale-105 transition duration-300"
+        />
       </div>
       <div className="flex items-center justify-center text-neutral-700 gap-3 my-10">
         <a href="https://www.linkedin.com/in/ian-mark-morga-994136295/">
-          <FaLinkedin className="w-[24px] h-[24px]" />
+          <FaLinkedin className="w-[24px] h-[24px] hover:scale-105 transition duration-300" />
         </a>
 
         <a href="https://github.com/IannnMark">
-          <FaGithub className="w-[24px] h-[24px]" />
+          <FaGithub className="w-[24px] h-[24px] hover:scale-105 transition duration-300" />
         </a>
       </div>
       <div className="flex items-center text-center justify-center my-10">
