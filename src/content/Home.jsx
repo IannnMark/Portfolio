@@ -259,7 +259,7 @@ export default function Home() {
             Interested in working with me? I’d love to hear from you!
           </p>
 
-          <p className="text-neutral-700 bg-white rounded-lg px-4 py-4 text-base">
+          <p className="text-neutral-700 bg-white rounded-lg px-4 py-4 text-base hover:scale-105 transition duration-300">
             ianmarkmorga07@gmail.com
           </p>
         </div>
