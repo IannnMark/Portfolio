@@ -215,7 +215,7 @@ export default function Home() {
         className="flex flex-col md:flex-row justify-center md:p-16"
       >
         <div
-          className="w-[327px] h-[403px] md:w-[547px] md:h-[733px] rounded-lg order-1 md:order-2 mx-auto md:mx-0 flex items-center justify-center"
+          className="w-[327px] h-[403px] md:w-[547px] md:h-[733px] rounded-lg order-1 md:order-2 mx-auto md:mx-0 flex items-center justify-center hover:scale-105 transition duration-300"
           style={{
             backgroundImage: `url(${profile1})`,
             backgroundSize: "cover",
