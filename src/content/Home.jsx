@@ -242,7 +242,7 @@ export default function Home() {
           </p>
           <div>
             <a href="https://drive.google.com/file/d/1RRUGdlUhmglwb3Wj-9qsk0y4ILqvl9uF/view?usp=sharing">
-              <button className="px-4 py-2 bg-white text-black rounded-lg hover:scale-105 transition duration-300">
+              <button className="px-4 py-2 bg-white text-black rounded-lg">
                 Download my CV
               </button>
             </a>
