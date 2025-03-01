@@ -215,7 +215,7 @@ export default function Home() {
         className="flex flex-col md:flex-row justify-center md:p-16"
       >
         <div
-          className="w-[327px] h-[403px] md:w-[547px] md:h-[733px] rounded-lg order-1 md:order-2 mx-auto md:mx-0 flex items-center justify-center hover:scale-105 transition duration-300"
+          className="w-[327px] h-[403px] md:w-[547px] md:h-[733px] rounded-lg order-1 md:order-2 mx-auto md:mx-0 flex items-center justify-center"
           style={{
             backgroundImage: `url(${profile1})`,
             backgroundSize: "cover",
@@ -242,7 +242,7 @@ export default function Home() {
           </p>
           <div>
             <a href="https://drive.google.com/file/d/1RRUGdlUhmglwb3Wj-9qsk0y4ILqvl9uF/view?usp=sharing">
-              <button className="px-4 py-2 bg-white text-black rounded-lg">
+              <button className="px-4 py-2 bg-white text-black rounded-lg hover:scale-105 transition duration-300">
                 Download my CV
               </button>
             </a>
